@@ -4,7 +4,7 @@ import time, datetime, threading, _thread, csv, sys, subprocess, os, sqlite3
 host = '192.168.1.' #The 192.168.1.[X] X where the Scripts gone Loop 1 To 254
 Database_Location = '/home/pi/Desktop/LAN-Monitoring' #Path & Filename where your Datebase's gona be saved dont use .csv or.db it will be addet during the script
 CreateDatabase_on_Startup = True #This Option will create a new Datebase everytime u start the script. Start it just for the first time for use
-time_minute_1 = 30 #This means the it will ping for IP when it is HH:30 
+time_minute_1 = 30 #This means that it will ping for IP when it is HH:30 
 time_minute_2 = 0 #This means the it will ping for IP when it is HH:00
 time_Anytime = True #Change it to TRUE if you want that the script pings at any time
  #modyfiey for ur OS if necessary WIN(-n 1 -w 1000)
